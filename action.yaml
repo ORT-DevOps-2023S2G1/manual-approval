@@ -33,6 +33,3 @@ inputs:
 runs:
   using: docker
   image: docker://ghcr.io/ort-devops-2023s2g1/manual-approval:1
-  credentials:
-     username: ${{ github.actor }}
-     password: ${{ secrets.github_token }}
